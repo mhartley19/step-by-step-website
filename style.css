@@ -1,0 +1,208 @@
+:root{
+    font-family: "Dayrom";
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+
+@font-face{
+    font-family: 'BallparkWeiner';
+    src: url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/ballpark.eot');
+    src: url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/ballpark.woff') format('woff'),
+         url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/ballpark.ttf') format('truetype'),
+         url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Dayrom';
+    src: url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/dayrom.eot');
+    src: url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/dayrom.woff') format('woff'),
+         url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/dayrom.ttf') format('truetype'),
+         url('/Users/mikehartley/Desktop/tp_images_fonts/fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(/Users/mikehartley/Desktop/tp_images_fonts/images/yellow_background.png);
+    width: 965px;
+    margin-left: 239px;
+}
+
+#maincontent{ padding: 10px;
+  
+}
+
+#header{
+    font-family: "BallparkWeiner";
+    display:flexbox;
+    justify-content: space-between;
+    
+}
+
+#logo{
+    display: block;
+}
+    
+
+
+#navlinks{
+    margin-top: 45px;
+    font-size: 18px;
+    margin-bottom:0;
+    margin-right: 11px;
+ 
+}
+
+#customhr{
+    display: flex;
+    margin: 15px;
+    padding-left: 2px;
+}
+
+.lastline {
+    width: 54px;
+    
+}
+.sf{
+    width: 913px;
+    border-radius: 2%;
+    box-shadow: 5px 10px 8px black;
+    margin-bottom: 7px;
+}
+
+.mainp{
+    text-align: justify;
+    padding: 8px;
+}
+
+
+
+#centercontent{
+    display: flex;
+   
+
+}
+aside{
+    background-color: rgb(112, 107, 101);
+    height: 475px;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 15px 5px;
+    color: white;
+    text-align: justify;
+    
+}
+.asideimage{
+    border: solid 2px black;
+    justify-content: center;
+}
+.imagecenter{
+    text-align: center;
+    padding-top:25px;
+}
+.logoimage{
+    display: inline;
+    
+}
+.sociallinks{
+    text-align: center;
+}
+#image{
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+}
+.articleheader{
+    font-family: "Dayrom";
+    text-transform: uppercase;
+    right: 40px;
+    display:initial;
+    bottom: 10px;
+}
+
+.headerimage{
+
+    padding-top: 10px;
+}
+
+h1, h2, h3{
+    display: inline;
+    font-family: 'Dayrom';
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2{
+    margin: 20px 0px;
+    font-size: 14px;
+}
+
+h3{
+    
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+h4{
+    text-transform: uppercase;
+    font-family: "dayrom";
+}
+nav{
+    
+    display: inline;
+    margin-left: 700px;
+    
+    
+}
+
+.links{
+    display: inline-block;
+    padding-left: 35px;
+    text-transform: uppercase;
+    
+    
+}
+
+.links a{
+    text-decoration: none;
+    font-family: "Dayrom";   
+    color: black;
+}
+
+header{
+    display: flex;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footerbox{
+    width: 400px;
+    padding: 10px
+}
+#fb3{
+    display: flex;
+}
+
+.fb3list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fb3list li{
+    color: rgb(163, 67, 102);
+    flex-grow: inherit;
+    display: inline-block;
+    order: 4;
+}
+
+#zozor{
+    font-family: 'BallparkWeiner';
+}
