@@ -28,7 +28,7 @@
 }
 
 body{
-    background-image: url(tp_images_fonts 2/images/yellow_background.png);
+    background-image: url("tp_images_fonts 2/images/yellow_background.png");
     width: 965px;
     margin-left: 239px;
 }
